@@ -1,0 +1,662 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+h1, h2, a {
+	display: block;
+    color: #12c;
+}
+
+h1:hover {
+    text-decoration: none;
+}
+
+h2 {
+    color: #222;
+    font-weight: bold;
+    margin: 20px 0 2px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+}
+
+.education h3 {
+	font-weight: normal;
+}
+
+.bottom-box h3 span {
+    display: block;
+    color: #12c;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.bottom-box h3 span:hover {
+    text-decoration: none;
+}
+
+b {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+body {
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.wrapper {
+    min-width: 885px;
+}
+
+.employment {
+    margin-left: 29px;
+    width: 100%;
+    position: relative;
+}
+
+.employment article {
+    /*width: 243px;*/
+    float: left;
+    margin-right: 40px;
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: solid 3px transparent;
+	border-right: solid 3px transparent;
+	border-top: solid 3px #bbb;
+	position: absolute;
+	display: block;
+	top: 15px;
+	right: 9px;
+}
+
+.arrow-down-hover {
+	border-top-color: #fff;
+}
+
+.arrow-down-active {
+	border-top-color: #000;
+}
+
+.color-000 {
+	color: #000;
+}
+
+.color-bbb {
+	color: #bbb;
+}
+
+.color-fff, .active {
+	color: #fff;
+}
+
+.color-777 {
+    color: #777;
+}
+
+.color-093 {
+    color: #093;
+}
+
+.color-12c {
+	color: #12c;
+}
+
+.color-222 {
+	color: #222;
+}
+
+.color09 {
+	color: #444;
+}
+
+.color-999 {
+    color: #999;
+}
+
+.bg-color02 {
+	background-color: #fff;
+}
+
+.bg-color03 {
+	background-color: #2d2d2d;
+}
+
+.bg-color-f2f2f2 {
+    background-color: #f2f2f2;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.font-size01 {
+	font-size: 14px;
+}
+
+.font-size-13 {
+	font-size: 13px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+[role="navigation"] {
+	border-bottom: 1px solid #000;
+	padding: 0 8px;
+}
+
+[role="navigation"] li {
+	cursor: pointer;
+	display: inline-block;
+}
+
+.main-nav li {
+	font-weight: bold;
+	font-size: 13px;
+	position: relative;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-top: 2px;
+}
+
+.main-nav {
+	height: 29px;
+	line-height: 27px;
+}
+
+.dropdown01 ul {
+	position: absolute;
+	left: -1px;
+	top: 29px;
+	border: 1px solid #bebebe;
+	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+	width: 90px;
+	border-top: none;
+	z-index: 10;
+}
+
+.main-nav-sub-nav li {
+	display: block;
+}
+
+li.devider {
+    padding: 0;
+}
+
+.sub-nav {
+    height: 39px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+
+.sub-nav ul {
+    width: 571px;
+    margin-left: 114px;
+}
+
+.sub-nav li {
+    font-size: 13px;
+    font-weight: normal;
+    padding-right: 14px;
+    padding-left: 14px;
+    line-height: 38px;
+}
+
+.sub-nav li:hover {
+    color: #000;
+}
+
+li.subnav-li-active {
+    border-bottom: 3px solid #dd4b39;
+    color: #dd4b39;
+    font-weight: bold;
+}
+
+.sub-nav-02 {
+    min-width: 1180px;
+    height: 40px;
+    clear: left;
+    border-top: 1px solid #e4e4e4;
+    float: left;
+}
+
+.sub-nav-02 li {
+    cursor: default;
+}
+
+li span {
+    display: block;
+    border-top: 1px solid #ebebeb;
+    padding: 0;
+}
+
+li.dropdown01 {
+	padding-right: 19px;
+}
+
+li.dropdown02 {
+	position: relative;
+	padding-right: 22px;
+}
+
+.dropdown02 ul {
+	width: 100px;
+}
+
+.dropdown02 li {
+	display: block;
+	color: #777;
+}
+
+.dropdown02 span {
+    top: 17px;
+    right: 10px;
+    border-width: 4px 4px 0 4px;
+    border-top-color: #777;
+}
+
+.font-size02 li {
+	font-size: 1em;
+}
+
+.visible {
+	display: block;
+}
+
+.search {
+	background-color: #f1f1f1;
+	overflow: hidden;  
+	padding: 19px 18px 20px 11px;
+}
+
+.logo {
+	width: 102px;
+	height: 33px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+.logo img {
+    position: absolute;
+    left: -58px;
+    top: -2px;
+}
+
+form {
+    margin-top: 1px;
+}
+
+form input {
+	background: #fff url('../img/voice.gif') no-repeat 545px 4px;
+	height: 25px;
+	width: 559px;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #c0c0c0;
+	float: left;
+	border-radius: 1px;
+	padding-left: 10px;
+	font-size: 16px;
+	margin: 0 13px;
+}
+
+form input:focus {
+	/*outline: none;*/	
+}
+
+form button {
+	min-width: 70px;
+	height: 29px;
+	border: none;
+	border-radius: 2px;
+	border: 1px solid #3079ed;
+	background-color: #4d90fe; 
+	float: left;
+}
+
+form button:hover {
+    border-color: #2f5bb7;
+}
+
+button span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background: url('../img/sprite.png') no-repeat -30px 4px;
+    margin: 0 auto;
+}
+
+[role="button"] {
+    background-color: #d14836;
+    color: #fff;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    float: right;
+    margin-right: -3px;
+}
+
+[role="main"] {
+    width: 571px;
+    margin-left: 136px;
+}
+
+[role="main"] p {
+    font-size: 13px;
+    color: #444;
+    line-height: 16px;
+    margin: 5px 0 15px 0;
+}
+
+.sub-button {
+    position: absolute;
+    background-color: #f2f2f2;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+}
+
+.sub-button01 {
+  right: 116px;
+  top: 5px;
+  width: 90px;
+  height: 29px;  
+  font-size: 11px;
+  color: #222;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 3px;
+  padding-left: 8px;
+  font-weight: inherit;
+}
+
+.sub-button01 span {
+    position: relative;
+    right: -31px;
+    top: -9px;
+    border-top-color: #222;
+    border-width: 4px 4px 0 4px;
+}
+
+.sub-button02 {
+    top: 5px;
+    right: 28px;
+    width: 72px;
+    height: 29px;
+}
+
+.sub-button02 span {
+    background: url('../img/sprite02.png') no-repeat -40px -258px;
+}
+
+p.result {
+    color: #999;
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 17px;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+.contact a {
+    display: inline;
+}
+
+.education {
+    clear: left;
+}
+
+.top-box, .bottom-box {
+    float: left;
+}
+
+.bottom-box {
+    margin-bottom: 20px;
+}
+
+article a {
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+article span {
+    font-style: italic;
+    font-size: 12px;
+}
+
+article.last {
+    border-bottom: 1px solid #777;
+    margin-bottom: 20px;
+}
+
+p a {
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 0;
+    display: inline;
+}
+
+.rotate {
+    /* Safari */
+    -webkit-transform: rotate(-90deg) translateY(-69px) translateX(-22px);
+    /* Firefox */
+    -moz-transform: rotate(-90deg) translateY(-69px) translateX(-22px);
+    /* IE */
+    -ms-transform: rotate(-90deg) translateY(-69px) translateX(-22px);
+    /* Opera */
+    -o-transform: rotate(-90deg) translateY(-69px) translateX(-22px);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-0.00000000, M12=1.00000000, M21=-1.00000000, M22=-0.00000000,sizingMethod='auto expand')";
+    position: absolute;
+}
+
+.skills li, .interests li {
+	display: inline;
+}
+
+.related-search {
+    margin-top: 37px;
+    float: left;
+}
+
+.related-search ul {
+	width: 100%;
+}
+
+.related-search li {
+	width: 40%;
+	float: left;
+    text-decoration: underline;
+    
+	line-height: 21px;}
+
+.related-search li:hover {
+    text-decoration: none;
+}
+
+.related-search span {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.pagination {
+    float: left;
+    margin: 30px 0 20px 100px;
+}
+
+.pagination li {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 20px;
+    height: 59px;
+    line-height: 25px;
+}
+
+.pagination span {
+    display: block;
+    background: #fff;
+    border: none;
+    position: absolute;
+    top: 41px;
+    right: 0px;
+    text-align: right;
+    padding-right: 5px;
+    width: 20px;
+    height: 56px;
+}
+
+li.pag-1 {
+    width: 50px;
+    background: url('../img/sprite02.png') no-repeat -24px 1px;
+}
+
+.pag-1 span {
+    width: 50px;
+    font-weight: bold;
+}
+
+li.pag-2 {
+    background: url('../img/sprite02.png') no-repeat -74px 1px;
+}
+
+li.pag-3 {
+    background: url('../img/sprite02.png') no-repeat -74px 1px;
+}
+
+li.pag-4 {
+    width: 93px;
+    background: url('../img/sprite02.png') no-repeat -74px 1px;
+}
+
+.pag-4 span {
+    width: 93px;  
+    height: 20px;
+    top: 41px;
+    right: -8px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+span.next {
+    text-align: right;
+    font-weight: bold;
+    width: 50px;
+    right: -1px;
+    z-index: 100;
+}
+
+.ie8 .rotate {
+    position: inherit;
+}
+
+.icon {
+    float: left;
+    margin: -3px 10px 10px -3px;
+}
+
+.more-text {
+    font-style: inherit;
+    display: none;
+}
+
+.long-text {
+    font-style: inherit;
+}
+
+.long-text a {
+	display: inline;
+	font-size: 13px;
+	color: #000;
+}
+
+.more {
+    display: inline;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.current a {
+	display: inline;
+}
+
+/*** keep as last ******************/
+.hidden {
+	display: none;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.ie7 li {
+    float: left;
+}
+
+.ie7 .related-search {
+    float: none;
+}
+
+.ie7 .sub-button01 span {
+    top: -4px;
+}
+
+.ie7 .rotate {
+    position: static;
+}
+
+.ie7 .skills li {
+    float: none;
+}
+
+.ie7 .pagination {
+    float: none;
+}
+
+ie7 p span {
+    font-style: inherit;
+}

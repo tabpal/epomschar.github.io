@@ -1,0 +1,1 @@
+(function(){if(!/*@cc_on!@*/0)return;var e = "header,article,footer,aside,section".split(','),i=e.length;while(i--){document.createElement(e[i])}})()
